@@ -1,0 +1,43 @@
+body{
+    background: #6b6bdd50;
+}
+
+.container{
+    border: 1px solid black;
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    text-align: center;
+}
+
+.quotes{
+    border: 1px solid black;
+    width: 700px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color:gray;
+    background-color: rgb(166, 166, 240);
+    border:10px solid #4c8ce0;
+}
+
+
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+
+.quotes h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+@media(max-width:480px){
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+}
+}
